@@ -1,0 +1,28 @@
+{
+  "name": "pandaodds",
+  "version": "1.0.0-alpha.1",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "8.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "test:tdd": "jest --watchAll",
+    "test:coverage": "jest --coverage",
+    "upcoming_matches": "node index.js upcoming_matches",
+    "odds_for_match": "node index.js odds_for_match"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-node": "^4.0.0",
+    "jest": "^24.1.0",
+    "prettier-eslint": "^8.8.2"
+  }
+}
